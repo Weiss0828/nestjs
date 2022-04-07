@@ -1,0 +1,1 @@
+{"version":3,"file":"auto.guard.js","sourceRoot":"","sources":["../../src/guards/auto.guard.ts"],"names":[],"mappings":";;;AAEA,MAAa,SAAS;IACpB,WAAW,CAAC,OAAyB;QACnC,MAAM,OAAO,GAAG,OAAO,CAAC,YAAY,EAAE,CAAC,UAAU,EAAE,CAAC;QAEpD,OAAO,OAAO,CAAC,OAAO,CAAC,EAAE,CAAC;IAC5B,CAAC;CACF;AAND,8BAMC"}

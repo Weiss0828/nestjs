@@ -1,0 +1,27 @@
+###创建车辆信息
+
+POST http://localhost:3000/reports
+Content-Type: application/json
+
+{
+   "make" : "奔驰GLC",
+   "model":"豪华型3",
+   "year":2019,
+   "price":3500000,
+   "lng":0,
+   "lat":0,
+   "mileage":57700
+}
+
+###更新状态approved(是否有效)
+PATCH http://localhost:3000/reports/1
+Content-Type: application/json
+
+{
+   "approved":true
+}
+
+
+####估计二手车价值
+
+GET http://localhost:3000/reports?make=sdf&model=dfg&year=1980&lng=0&lat=0&mileage=20000

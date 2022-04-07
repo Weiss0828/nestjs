@@ -1,0 +1,55 @@
+### 创建用户
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email":"zhouyue1@qq.com",
+    "password":"123"
+}
+
+### 登录用户
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+   "email":"zhouyue1@qq.com",
+    "password":"123"
+}
+
+###查找用户
+POST http://localhost:3000/auth/whoAmI
+
+###注销用户
+POST http://localhost:3000/auth/signout
+
+
+
+###通过id找一个用户
+GET http://localhost:3000/auth/5
+
+###find All user by id
+
+GET http://localhost:3000/auth?email=zhouyue@qq.com
+
+###Delet One user by id
+
+DELETE  http://localhost:3000/auth/2
+
+
+###update One user by id
+
+PATCH   http://localhost:3000/auth/5
+Content-Type: application/json
+
+{
+    "email":"zhouyue1@qq.com",
+    "password":"18486806901"
+}
+
+
+
+# ###   SET COLOR
+# GET http://localhost:3000/auth/color/red
+
+# ###   GET COLOR
+# GET http://localhost:3000/auth/color
