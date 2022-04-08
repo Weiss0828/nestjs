@@ -29,7 +29,7 @@ let ReportsController = class ReportsController {
         this.reportsService = reportsService;
     }
     getEstimate(query) {
-        console.log(query);
+        return this.reportsService.createEstimate(query);
     }
     create(body, user) {
         const report = this.reportsService.create(body, user);

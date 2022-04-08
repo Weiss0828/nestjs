@@ -4,13 +4,13 @@ POST http://localhost:3000/reports
 Content-Type: application/json
 
 {
-   "make" : "奔驰GLC",
-   "model":"豪华型3",
-   "year":2019,
-   "price":3500000,
-   "lng":0,
-   "lat":0,
-   "mileage":57700
+   "make" : "奔驰GLD",
+   "model":"豪华型4",
+   "year":2020,
+   "price":3430000,
+   "lng":41,
+   "lat":41,
+   "mileage":70000
 }
 
 ###更新状态approved(是否有效)
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ####估计二手车价值
 
-GET http://localhost:3000/reports?make=sdf&model=dfg&year=1980&lng=0&lat=0&mileage=20000
+GET http://localhost:3000/reports?make=奔驰GLD&model=豪华型3&year=2019&lng=42&lat=42&mileage=67000

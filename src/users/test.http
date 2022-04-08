@@ -3,7 +3,7 @@ POST http://localhost:3000/auth/signup
 Content-Type: application/json
 
 {
-    "email":"zhouyue1@qq.com",
+    "email":"zhouyue2@qq.com",
     "password":"123"
 }
 
@@ -12,7 +12,7 @@ POST http://localhost:3000/auth/signin
 Content-Type: application/json
 
 {
-   "email":"zhouyue1@qq.com",
+   "email":"zhouyue2@qq.com",
     "password":"123"
 }
 
